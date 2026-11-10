@@ -23,6 +23,24 @@ delivery performance and areas requiring further investigation.
 2. How do review scores differ between on-time and late orders?
 3. How does review timing affect the interpretation of these differences?
 
+## Methodology
+
+This project follows the six-phase data analysis framework:
+Ask, Prepare, Process, Analyze, Share, and Act.
+
+| Phase | Application in this project |
+|---|---|
+| Ask | Defined the business objective, intended audience, and questions about delivery performance and customer reviews. |
+| Prepare | Obtained the Olist orders and reviews datasets and imported them into PostgreSQL. |
+| Process | Checked IDs, missing values, timestamp sequences, and review scores; selected the latest answered review per order. |
+| Analyze | Examined monthly late delivery rates and compared review scores by delivery status and review timing. |
+| Share | Created an interactive Power BI dashboard and documented methods and findings on GitHub. |
+| Act | Proposed operational investigations, proactive delivery communication, and separate reporting of pre-delivery and post-delivery feedback. |
+
+The Act phase presents proposed actions and evaluation metrics.
+No operational intervention was implemented, and business impact
+has not been measured.
+
 ## Tools
 
 - PostgreSQL and pgAdmin 4: data preparation, validation, and analysis
